@@ -2,7 +2,7 @@ import setuptools
 
 VERSION = "0.0.1"  # PEP-440
 
-NAME = "TruckersMP.py"
+NAME = "TruckersMP-async"
 
 INSTALL_REQUIRES = [
     "aiohttp",
@@ -33,7 +33,7 @@ setuptools.setup(
     python_requires=">=3.8",
     # Requirements
     install_requires=INSTALL_REQUIRES,
-    packages=["streamlit_gsheets"],
+    packages=["TruckersMP-async"],
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
 )
