@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/TruckersMP.py
+      url: https://pypi.org/p/TruckersMP-async
     permissions:
       id-token: write
     steps:
